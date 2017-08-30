@@ -1,0 +1,143 @@
+/* layout */
+.full-width-container {
+    .expand.row-fluid,
+    .breadcrumb.expand {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+}
+
+#subsidiary {
+	padding: 40px 0 20px 0;
+    
+    .section-title {
+        padding: 0;	
+    }
+    
+    #section-9 {
+        background: $LightGrey;
+        padding: 20px 0;
+        overflow:hidden;
+    }
+    
+    #UbcBottomNav.UbcContainer {
+        max-width:1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.row-fluid.expand.content {
+    #subsidiary {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#ubc7-unit .container, header#ubc7-header .container {
+    padding: 0 10px !important;
+}
+
+/* site-wide elements */
+body {
+	font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+}
+
+#content {
+    .clf-grid {
+        max-width:1200px;
+        margin:0 auto;
+        
+        .span8 {
+            .story-title {
+                text-transform: uppercase;
+                margin: 60px auto 10px auto;
+                @include font-parameters(300%, 50px);
+            }
+            
+            p {
+                @include font-parameters(1.5em, 1.5em);
+                margin:0 0 1.5em;
+                
+                .intro-text {
+                    @include font-parameters(1.4em, 1.5em);
+                }
+            }
+        }
+    }
+}
+
+.clf-grid {
+    .span2 {
+        width:16.66%;
+        margin:0;
+    }
+    .span8 {
+        width:66.66%;
+        margin:0;
+    }
+}
+
+#ubc7-unit-footer {
+	border-top:0;
+}
+
+.section-title, .widget-title {
+	text-transform: uppercase;
+	padding: 0 0 1em 0;
+	margin: 0 0 10px 0;
+}
+
+.tagline {
+	@include font-parameters(1.5em, 1.5em);
+	font-weight:600;
+	color:$LightBlue;
+	padding: 0 0 40px 0;
+}
+
+#text-container .text-anim {
+	display:inline-block;
+	font-size:300%;
+}
+.entry-content h1.story-end {
+	margin: 0 auto 30px auto;
+	max-width: 70%;
+	color: $LightBlue;
+	font-size: 300%;
+}
+.video {
+	max-width:100%;
+	width:1200px;
+	height:675px;
+	margin:0 auto;
+	display: block;
+}
+.dont-break-out {
+	/* These are technically the same, but use both */
+  overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+	/* Instead use this non-standard one: */
+  word-break: break-word;
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+#section-7 .widget-title, #section-9 .widget-title {
+	width:66.66%;
+	margin:0 auto;
+}
+
+.hentry {
+	margin-bottom:0;
+}
+
+.back-home {
+	text-align:right;
+}

@@ -1,0 +1,27 @@
+// fonts
+@mixin font-parameters($Fontsize, $Lineheight)
+{
+	font-size: $Fontsize;
+	line-height: $Lineheight;
+}
+@mixin font-parameters-color($Fontsize, $Lineheight, $Color)
+{
+	font-size: $Fontsize;
+	line-height: $Lineheight;
+    color: $Color;
+}
+@mixin font-parameters-color-weight($Fontsize, $Lineheight, $Color, $Fontweight)
+{
+	font-size: $Fontsize;
+	line-height: $Lineheight;
+    color: $Color;
+    font-weight: $Fontweight;
+}
+
+// others
+@mixin transition($Transition)
+{
+	-webkit-transition: $Transition;
+	-moz-transition: $Transition;
+	transition: $Transition;
+}
